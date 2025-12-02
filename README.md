@@ -1,12 +1,11 @@
-# Trabalho A1 de Séries Temporais: Previsão de Volume
+# Trabalho A2 de Séries Temporais: Modelagem Avançada e Multivariada
 
-Este repositório contém a análise e modelagem desenvolvida para a avaliação A1 da disciplina de Séries Temporais. O objetivo do projeto foi construir um modelo de regressão para prever a série temporal da variável `volume`.
+Este repositório apresenta a evolução da análise iniciada na A1. Além da série de `volume`, incorporamos as variáveis exógenas `users` e `inv` para aprofundar a capacidade preditiva dos modelos.
 
-O processo completo, incluindo a análise exploratória, pré-processamento, criação de features e a comparação iterativa de modelos, está documentado nos arquivos abaixo.
+Nesta etapa, exploramos técnicas de suavização exponencial (Holt/Holt-Winters) e modelos estatísticos (SARIMAX), utilizando validação *Walk-Forward* e diagnósticos rigorosos de resíduos.
 
-
-* **[Relatório Executivo (PDF)](Relatorio_Executivo_A1_Series_Temporais.pdf)**: Um resumo de 5 páginas com a metodologia, principais resultados e conclusões do projeto.
-* **[Análise Completa (Jupyter Notebook)](trabalho_a1.ipynb)**: O notebook contendo todo o código e o passo a passo detalhado da análise.
+* **[Relatório Executivo Atualizado (PDF)](Relatório_A2_Series_Temporais.pdf)**: Um resumo de 5 páginas com a metodologia, principais resultados e conclusões do projeto.
+* **[Análise Completa (Jupyter Notebook)](trabalho_a2.ipynb)**: Pipeline completo contendo decomposição STL, testes de estacionariedade e comparação de performance dos modelos.
 
 ## Integrantes
 
